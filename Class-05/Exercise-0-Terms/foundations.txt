@@ -1,0 +1,4 @@
+1. What are data types? - It is a type of programming language.
+2. What are operators used for? - They are scrpit lines for code.
+3. What are conditional statements? - It is statements used to define code.
+4. What are loops? - A line of code that repeats other lines of code.

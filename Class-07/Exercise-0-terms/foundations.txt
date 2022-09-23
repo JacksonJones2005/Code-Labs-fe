@@ -1,0 +1,2 @@
+What is a DOM- DOM is a interface for web documents.
+What are event listeners- an even listener is a looped program that sets a specific term in javascript.
