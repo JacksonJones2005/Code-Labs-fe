@@ -1,2 +1,0 @@
-var width
-var height
