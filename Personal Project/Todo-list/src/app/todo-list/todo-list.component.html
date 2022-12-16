@@ -1,1 +1,15 @@
-<p>todo-list works!</p>
+<h1 style="text-align: center">To-Do List</h1>
+<label>Description</label>
+<input type="text" [(ngModel)]="description">
+<label>Complete</label>
+<input type="text" [(ngModel)]="complete">
+<button (click)="addtodo()">Add To-Do</button>
+<div *ngFor="let todo of todos; let i = index">
+  <div>
+    {{ todo.description }}
+  </div>
+  <div>
+    {{todo.complete}}
+  </div>
+  <button type="button" (click)="deletetodo(i)">Delete</button>
+</div>
